@@ -48,6 +48,5 @@ CREATE TABLE titles(
 FOREIGN KEY (emp_no) REFERENCES employee (emp_no),
 PRIMARY KEY (emp_no, title, from_date)
 );
-SELECT * FROM dept_emp;
-drop table dept_emp;
-drop table titles;
+SELECT * FROM titles;
+
